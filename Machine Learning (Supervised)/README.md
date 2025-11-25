@@ -9,6 +9,7 @@ This repository contains data and code used to analyze customer churn for a tele
 - Telco-Customer-Churn.csv (Raw dataset)
 - README.md (Project documentation)
 - requirements.txt (dependencies)
+- assets (Images of charts)
 ```
 
 ## Project Overview
@@ -82,7 +83,10 @@ Models are evaluated using:
 Insights from the analysis help identify which customer groups are at a higher risk of churn.
 
 ![Correlation of Features with Churn](assets/correlation_heatmap.png "Feature Correlation Heatmap")
+
 ![Correlation of Features with Churn](assets/confusion_matrix_LnrReg.png "Feature Correlation Heatmap")
+
+![Correlation of Features with Churn](assets/confusion_matrix_randmFrst.png "Feature Correlation Heatmap")
 
 ## Contributing
 
@@ -91,4 +95,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## License
 
 This project is licensed under the MIT License.
+
 
