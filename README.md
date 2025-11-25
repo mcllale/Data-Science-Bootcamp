@@ -14,13 +14,13 @@ This project aims to:
 neural_network_task.ipynb
 
 ## Project Structure
-├── neural_network_task.ipynb
-├── slogan-valid.csv
-├── README.md   ← (this file)
+- neural_network_task.ipynb
+- slogan-valid.csv
+- README.md   ← (this file)
 
 ## Technologies Used
 **Languages:**
-    - Python 3.8+
+- Python 3.8+
 
 **Libraries:**
 - spaCy (text preprocessing)
@@ -46,11 +46,9 @@ The project uses a file named slogan-valid.csv, containing:
 
 - Loads the dataset
 - Removes null/invalid rows
-- Adds a modified_slogan column containing
-industry + processed_slogan
-to give the model context.
+- Adds a modified_slogan column containing industry + processed_slogan to give the model context.
 
-### Preprocessing Steps
+## Preprocessing Steps
 - Convert text to lowercase
 - Tokenise using spaCy
 - Remove stop words & punctuation
@@ -104,7 +102,6 @@ generate_slogan("technology")
 - Improve sequence diversity using temperature sampling
 - Add a web interface with Flask / FastAPI
 
-### License
+## License
 
 This project is provided as open educational material.
-Add your license here if needed (MIT, GPL, etc.).
