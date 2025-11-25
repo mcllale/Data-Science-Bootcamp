@@ -14,6 +14,7 @@ This project aims to:
 neural_network_task.ipynb
 
 ## Project Structure
+
 - neural_network_task.ipynb
 - slogan-valid.csv
 - README.md   ← (this file)
@@ -49,6 +50,7 @@ The project uses a file named slogan-valid.csv, containing:
 - Adds a modified_slogan column containing industry + processed_slogan to give the model context.
 
 ## Preprocessing Steps
+
 - Convert text to lowercase
 - Tokenise using spaCy
 - Remove stop words & punctuation
@@ -57,6 +59,7 @@ The project uses a file named slogan-valid.csv, containing:
 - Build the combined industry-aware text field
 
 ## Model Architecture
+
 - The LSTM model includes:
 - Tokeniser vocabulary from processed slogans
 - Sequences padded via pad_sequences
@@ -65,19 +68,21 @@ The project uses a file named slogan-valid.csv, containing:
 - Dense output layer for predicting next tokens
 
 ## How to Run the Project
-1. Install dependencies
-'''
-pip install pandas numpy spacy tensorflow
-'''
 
-'''
-python -m spacy download en_core_web_md
-'''
-1. Open the notebook
-neural_network_task.ipynb
-4. Run each cell in order
+1. Install dependencies
+
+`pip install pandas numpy spacy tensorflow`
+
+`python -m spacy download en_core_web_md`
+
+2. Open the notebook
+
+`neural_network_task.ipynb`
+
+3. Run each cell in order
 
 ## The notebook is self-contained and includes instructions for:
+
 - Loading the dataset
 - Preprocessing text
 - Preparing training sequences
@@ -87,9 +92,10 @@ neural_network_task.ipynb
 ## Example Usage
 
 Once the model is trained, you can generate a slogan using:
-'''
-generate_slogan("technology")
-'''
+
+`generate_slogan("technology")`
+
+You can change "technology" to a different industry to generate a slogan.
 
 ## Possible output:
 
@@ -104,4 +110,4 @@ generate_slogan("technology")
 
 ## License
 
-This project is provided as open educational material.
+This project is for practical purpose, open for collaborations.
