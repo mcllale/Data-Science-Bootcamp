@@ -1,11 +1,9 @@
-```
+
 # Task Manager - Simple Console-Based Task Management System
 
 A lightweight, file-based task management application written in Python, designed for small teams. It allows users to register, add tasks, assign tasks to team members, track progress, mark tasks as complete, and generate reports — all without requiring a database.
 
 Perfect for learning file handling, user authentication, and basic menu-driven programs in Python.
-
----
 
 ### Features
 
@@ -23,8 +21,6 @@ Perfect for learning file handling, user authentication, and basic menu-driven p
 - Overdue task tracking
 - Color-coded console output using `colorama`
 
----
-
 ### File Structure
 
 ```
@@ -38,8 +34,6 @@ Perfect for learning file handling, user authentication, and basic menu-driven p
 
 > Note: `user.txt` and `tasks.txt` will be created automatically if they don't exist.
 
----
-
 ### Default Login (First Run)
 
 When you run the program for the first time, it creates a default admin account:
@@ -51,32 +45,26 @@ Password: adm1n
 
 Use these credentials to log in and register other users.
 
----
-
 ### Menu Options
 
-#### Regular User Menu:
+**Regular User Menu:**
 - `a`  – Add a task  
 - `va` – View all tasks  
 - `vm` – View my tasks  
 - `e`  – Exit  
 
-#### Admin Menu (extra options):
+**Admin Menu (extra options):**
 - `r`   – Register a new user  
 - `vc`  – View completed tasks  
 - `del` – Delete a task  
 - `gr`  – Generate reports  
 - `ds`  – Display statistics  
 
----
-
 ### Date Format
 
-All dates must follow this format:  
+All dates follow this format:  
 **`DD Mon YYYY`**  
 Example: `25 Oct 2025`, `01 Jan 2025`
-
----
 
 ### Reports Generated
 
@@ -102,8 +90,6 @@ Install dependency:
 pip install colorama
 ```
 
----
-
 ### How to Run
 
 1. Save the code as `task_manager.py`
@@ -119,20 +105,13 @@ python task_manager.py
 
 5. Start managing tasks!
 
----
-
 ### Security Note
 
 This is a **learning project**. Passwords are stored in plain text in `user.txt`.  
 Do **not** use this in production or with sensitive data.
-
----
 
 ### Author
 
 Created as part of a Python programming curriculum.
 
 Feel free to modify and improve!
-
----
-```
