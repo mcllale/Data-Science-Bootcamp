@@ -1,11 +1,5 @@
-```markdown
-# Amazon Product Reviews Sentiment Analysis  
+# Amazon Product Reviews - Sentiment Analysis  
 **Using spaCy + TextBlob (via spaCyTextBlob)**  
-
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)  
-![spaCy](https://img.shields.io/badge/spaCy-v3.0%2B-orange)  
-![TextBlob](https://img.shields.io/badge/TextBlob-sentiment-green)  
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Project Overview
 This repository contains a complete sentiment analysis pipeline that:
@@ -18,20 +12,18 @@ This repository contains a complete sentiment analysis pipeline that:
 The project is fully documented in `sentiment_analysis_report.pdf`.
 
 ## Repository Structure
-```
-.
-├── sentiment_analysis.ipynb               # Main Jupyter notebook with full pipeline
-├── sentiment_analysis_report.pdf          # Detailed 4-page project report
-├── Datafiniti_Amazon_Consumer_Reviews_of_Amazon_Products.csv   # (auto-downloaded)
-├── README.md                              # This file
-└── requirements.txt                       # Python dependencies
-```
+
+- sentiment_analysis.ipynb (Main Jupyter notebook with full pipeline)
+- sentiment_analysis_report.pdf (Detailed 4-page project report)
+- Datafiniti_Amazon_Consumer_Reviews_of_Amazon_Products.csv (auto-downloaded)
+- README.md (This file)
+- requirements.txt (Python dependencies)
 
 ## Dataset
-**Source:** [Datafiniti Consumer Reviews of Amazon Products](https://www.kaggle.com/datafiniti/consumer-reviews-of-amazon-products)  
+**Source:** 
+[Datafiniti Consumer Reviews of Amazon Products](https://www.kaggle.com/datafiniti/consumer-reviews-of-amazon-products)  
 - ~28K verified Amazon customer reviews across multiple product categories  
 - Key column used: `reviews.text` (main review content)
-
 The dataset is automatically downloaded via `kagglehub` when you run the notebook.
 
 ## Installation & Setup
@@ -64,7 +56,6 @@ textblob
 ## How to Run
 
 Simply open and run the notebook with colab (recommended) cell by cell:
-
 
 `sentiment_analysis.ipynb`
 
@@ -121,3 +112,4 @@ This project is licensed under the MIT License.
 ---
 **Feel free to star the repo if you find it useful!**
 ``` 
+
