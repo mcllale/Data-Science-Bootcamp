@@ -25,9 +25,8 @@ neural_network_task.ipynb
 
 **Libraries:**
 - spaCy (text preprocessing)
-- TensorFlow / Keras (LSTM model)
-- NumPy, Pandas (data handling)
-- Matplotlib / Seaborn (visualisation)
+- TensorFlow, Keras (LSTM model)
+- NumPy, Pandas
 - ML / NLP
 
 **Tokenisation & lemmatisation**
